@@ -7,7 +7,7 @@ class Obstacle {
     this.top = -100
 
     this.element = document.createElement('img')
-    this.element.src = '../images/redCar.png'
+    this.element.src = 'images/redCar.png'
     this.element.style.position = 'absolute'
 
     this.element.style.height = `${this.height}px`
